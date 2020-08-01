@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2j5p8f_7=$l6xp^mdu$(=(!5u(n!6ku1pcg3jfxx333$)z0*v^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['134.209.22.23', 'bgscleaners.com', 'www.bgscleaners.com']
 
 
 # Application definition
